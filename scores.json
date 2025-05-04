@@ -1,0 +1,15 @@
+
+[
+  {
+    "id": "123456",
+    "pseudo": "Alice",
+    "score": 23,
+    "lastActive": "2025-05-04"
+  },
+  {
+    "id": "789012",
+    "pseudo": "Bob",
+    "score": 15,
+    "lastActive": "2025-05-03"
+  }
+]
