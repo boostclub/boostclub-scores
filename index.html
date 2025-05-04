@@ -1,26 +1,33 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BoostClub · Scores</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BoostClub — Scores</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>📊 Scores BoostClub</h1>
-  <p>Voici les scores hebdomadaires des membres actifs sur le serveur Discord 🚀</p>
-  <table id="scoresTable">
-    <thead>
-      <tr>
-        <th>Pseudo</th>
-        <th>Score</th>
-        <th>Dernière activité</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
-
+  <div class="container">
+    <h1>🌟 BoostClub – Tableau des scores</h1>
+    <section id="top3" class="top3">
+      <h2>🏆 Top 3 de la semaine</h2>
+      <div class="top-cards" id="topCards"></div>
+    </section>
+    <section class="full-table">
+      <h2>📊 Classement complet</h2>
+      <table id="scoreTable">
+        <thead>
+          <tr>
+            <th>🏅 Rang</th>
+            <th>Pseudo</th>
+            <th>Score</th>
+            <th>Dernière activité</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
